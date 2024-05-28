@@ -44,7 +44,7 @@ main{
     color: white;
     padding: 2px;
     position: absolute;
-    bottom: 30px;
+    bottom: 100px;
     right: 240px;
 
 
@@ -54,7 +54,7 @@ main{
     color: white;
     padding: 2px;
     position: absolute;
-    bottom: 30px;
+    bottom: 100px;
     left: 2px;
 }
 
@@ -135,4 +135,14 @@ li{
 .logo{
     height: 20px;
     width: 100px;
+}
+.brand{
+    color: grey;
+}
+.price{
+    color: red;
+}
+#discount{
+    color: grey;
+    text-decoration:line-through
 }
