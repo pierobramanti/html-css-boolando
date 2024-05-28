@@ -4,6 +4,7 @@
 }
 .container-full{
     max-width: 100%;
+    
 }
 
 header{
@@ -11,18 +12,50 @@ header{
     width:100%;
     z-index: 1;
     font-family: "Roboto";
+    
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+   
+    
+}
+
+.content{
+    background-color: red;
+    position: relative;
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    
+   
+}
+.row-h{
+    display:flex;
+    flex-wrap: wrap;
+    
+    
 }
 .row{
     display:flex;
     flex-wrap: wrap;
+    margin-bottom: 10px;
+    
 }
 
-.col-33{
+.col-30{
     width: calc(100% / 3);
     height: 50px;
     display: flex;
 
 }
+
+.col-33{
+    width: calc(100% / 3);
+}
+
 .content-logo{
     align-content: center;
     color: white;
