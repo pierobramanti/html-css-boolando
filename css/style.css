@@ -9,6 +9,12 @@
     
 }
 
+.container-f{
+    max-width: 100%;
+    margin: auto;
+    font-family: "roboto";
+}
+
 header{
     width:100%;
     margin-bottom: 100px;
@@ -29,16 +35,18 @@ main{
 
 .content{
     position: relative;
-    width: 380px;
-
-    
-   
+    width: 380px; 
 }
 
 .content-img{
     width: 100%;
+}
 
-
+.content-f{
+    height: 100px;
+    color: white;
+    padding-left: 200px; 
+    padding-top: 30px;
 }
 .label{
     color: white;
@@ -92,6 +100,12 @@ main{
     
 }
 
+.row-f{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
 .col-30{
     width: calc(100% / 3);
     height: 50px;
@@ -103,22 +117,27 @@ main{
     width: calc(100% / 3);
 }
 
+.col-50{
+    width: calc(100% / 2);
+    background-color: black;
+}
+
 .content-logo{
     align-content: center;
     color: white;
-    padding-left: 100px;
+    padding-left: 150px;
 
 }
 .content-gender{
     align-content: center;
     color: white;
-    padding-left: 100px;
+    padding-left: 250px;
 
 }
 .content-icon{
     align-content: center;
     color: white;
-    padding-left: 120px;
+    padding-left: 220px;
 
 
 }
