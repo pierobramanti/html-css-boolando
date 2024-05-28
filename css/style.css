@@ -67,6 +67,10 @@ main{
     
     
 }
+
+.hearts:hover{
+    color:red;
+}
 .bg-green{
     background-color: green;
 }
