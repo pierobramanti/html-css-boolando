@@ -18,10 +18,16 @@
 header{
     width:100%;
     margin-bottom: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
     
 }
 main{
     font-family: "Roboto";
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 
