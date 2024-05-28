@@ -5,6 +5,7 @@
 .container-full{
     max-width: 100%;
     margin: auto;
+    font-family: "roboto";
     
 }
 
@@ -12,6 +13,9 @@ header{
     width:100%;
     margin-bottom: 100px;
     
+}
+main{
+    font-family: "Roboto";
 }
 
 
@@ -34,6 +38,31 @@ header{
 .content-img{
     width: 100%;
 
+
+}
+.label{
+    color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 30px;
+    right: 240px;
+
+
+}
+
+.label-1{
+    color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 30px;
+    left: 2px;
+}
+.bg-green{
+    background-color: green;
+}
+
+.bg-red{
+    background-color: red;
 }
 .row-h{
     display:flex;
