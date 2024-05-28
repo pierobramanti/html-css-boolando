@@ -118,6 +118,21 @@ main{
 
 
 }
+
+.d-block{
+    display: block;
+}
+
+.d-none{
+    display: none;
+}
+
+.content:hover .d-block{
+    display: none;
+}
+.content:hover .d-none{
+    display: block;
+}
 .bg-orange{
     background-color:#FF6900;
 }
